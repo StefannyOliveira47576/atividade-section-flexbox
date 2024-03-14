@@ -30,7 +30,7 @@
     .menu li :hover{
         transition: 0.8s;
         cursor: pointer;
-        background-color: #f03c02;
+        background-color: #f69a0b;
         color: white;
         border-radius: 10px;
      }
@@ -58,12 +58,71 @@
         display: flex;
         flex-wrap: wrap;
         max-width: 800px;
-        margin: 0;
+        margin: 0 auto;
         margin-bottom: 80px;
         text-align: center;
     }
 
-    
+    .secao-1 img{
+       width: 300px;
+       height: 300px;
+       max-width: 240px;
+       display: block;
+    }
+
+    .secao-1 div{
+        margin: 10px;
+        flex: 1 1 200px;
+    }
+
+    .secao-2{
+        background-color: #fdbf5c;
+        justify-content: center;
+        padding: 100px;
+        font-size: 19px;
+    }
+
+    .rodapé{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 90px;
+        flex-wrap: wrap;
+    }
+
+    .lista{
+        display: flex;
+    }
+
+    .lista li{
+        margin-right: 20px;
+        list-style: none;
+    }
+
+    .lista li a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    .lista li a:hover{
+        transition: 0.8s;
+        color: #9b0800;
+    }
+
+    .rodapé i{
+        color: white;
+        background-color: #d43a00;
+        font-size: 30px;
+        padding: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+
+
 
 
      
