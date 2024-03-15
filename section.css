@@ -60,17 +60,17 @@
     .secao-1{
         display: flex; /* Para meus itens ficarem lado á lado*/
         flex-wrap: wrap;  /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
-        max-width: 800px;
+        max-width: 800px;  /*Adaptação máxima dos conteúdos que estão dentro da div*/
         margin: 0 auto; /* Colocar ou tirar margem*/
-        margin-bottom: 80px;
+        margin-bottom: 80px;  /*Ela dá um espaçamento da margem inferior*/
         text-align: center; /* Alinhar o texto*/
     }
 
     .secao-1 img{
        width: 300px;
        height: 300px;
-       max-width: 240px;
-       display: block;
+       max-width: 240px;  /*Adaptação máxima dos conteúdos que estão dentro da div*/
+       display: block; /* Reforçando que as divs permanecem em blocos*/
     }
 
     .secao-1 div{
