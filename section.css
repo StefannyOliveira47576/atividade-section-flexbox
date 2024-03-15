@@ -82,6 +82,14 @@
         font-size: 19px;
     }
 
+    .secao-3{
+        background-color: #fdbf5c;
+        justify-content: center;
+        padding: 100px;
+        font-size: 19px;
+
+    }
+
     .rodapé{
         background-color: black;
         color: white;
